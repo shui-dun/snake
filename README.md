@@ -1,6 +1,16 @@
 # 贪吃蛇冒险
 贪吃蛇误入一片全新的领域，你的挑战开始了！这里危机四伏：无处不在的陷阱、突如其来的炸弹……你要如何克服重重阻碍，吃到美味的食物呢？
 
+## 安装
+
+```shell
+git clone https://github.com/shui-dun/snake
+cd snake
+apt install libncurses-dev
+make
+./snake
+```
+
 ## 介绍
 ***
 
@@ -35,7 +45,7 @@
 
   设置蛇头部（Head）的字符，默认为'O'。
 * **-o CHAR**
-    
+  
   设置蛇身体（bOdy）的字符，默认为'o'。
 * **-t N**
 
