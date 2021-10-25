@@ -1,4 +1,8 @@
+#if __linux__
 #include <curses.h>
+#else
+#include <ncurses/curses.h>
+#endif
 #include <inttypes.h>
 #include <pthread.h>
 #include <stdbool.h>
@@ -38,7 +42,10 @@ uint8_t additional;
 uint8_t n_trap = 30;
 uint8_t n_bomb = 5;
 uint8_t direction;
-int8_t directs[][2] = {{0, -1}, {0, 1}, {-1, 0}, {1, 0}};
+int8_t directs[][2] = {{0,  -1},
+                       {0,  1},
+                       {-1, 0},
+                       {1,  0}};
 char input_ch;
 
 void destructor() {
@@ -72,7 +79,7 @@ void update_map(char ch, int x, int y) {
 }
 
 Axis next_pos(Axis axis, int direct) {
-    return (Axis){axis.x + directs[direct][0], axis.y + directs[direct][1]};
+    return (Axis) {axis.x + directs[direct][0], axis.y + directs[direct][1]};
 }
 
 Axis random_posion() {
@@ -137,7 +144,7 @@ void destroy_bomb() {
 }
 
 void *move_bomb(void *parm) {
-    bombs = (Axis *)malloc(sizeof(Axis) * n_bomb);
+    bombs = (Axis *) malloc(sizeof(Axis) * n_bomb);
     for (uint8_t i = 0; i < n_bomb; i++) {
         bombs[i] = random_posion();
         update_map(BOMB, bombs[i].x, bombs[i].y);
@@ -159,9 +166,9 @@ void *move_bomb(void *parm) {
 }
 
 void alloc_map() {
-    map = (char **)malloc(COLS * sizeof(char *));
+    map = (char **) malloc(COLS * sizeof(char *));
     for (uint8_t i = 0; i < COLS; i++)
-        map[i] = (char *)malloc(LINES * sizeof(char));
+        map[i] = (char *) malloc(LINES * sizeof(char));
     for (uint8_t x = 0; x < COLS; x++)
         for (uint8_t y = 0; y < LINES; y++) map[x][y] = EMPTY;
 }
@@ -186,17 +193,17 @@ void random_food() {
 }
 
 Node *create_node(Axis axis, Node *pre) {
-    Node *node = (Node *)malloc(sizeof(Node));
+    Node *node = (Node *) malloc(sizeof(Node));
     node->axis = axis;
     node->pre = pre;
     return node;
 }
 
 void init_snake() {
-    head = create_node((Axis){len + 1, 2}, NULL);
+    head = create_node((Axis) {len + 1, 2}, NULL);
     Node *pre = head;
     for (uint8_t i = len; i >= 2; i--) {
-        tail = create_node((Axis){i, 2}, pre);
+        tail = create_node((Axis) {i, 2}, pre);
         pre = tail;
     }
     update_map(HEAD, head->axis.x, head->axis.y);
@@ -212,7 +219,7 @@ void random_trap() {
 }
 
 void init() {
-    srand((unsigned)time(NULL));
+    srand((unsigned) time(NULL));
     noecho();
     curs_set(0);
     alloc_map();

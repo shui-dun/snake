@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="snake"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\vcpkg\;CMake Files\..\..\..\..\vcpkg\scripts\;CMake Files\..\..\..\..\vcpkg\scripts\buildsystems\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="snake">
+				<Option output="D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/snake.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="D:/msys64/mingw64/lib/clang/11.0.0/include"/>
+					<Add directory="D:/msys64/mingw64/x86_64-w64-mingw32/include"/>
+					<Add directory="D:/msys64/mingw64/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/Makefile&quot;  VERBOSE=1 snake"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="snake/fast">
+				<Option output="D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/snake.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="D:/msys64/mingw64/lib/clang/11.0.0/include"/>
+					<Add directory="D:/msys64/mingw64/x86_64-w64-mingw32/include"/>
+					<Add directory="D:/msys64/mingw64/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/Makefile&quot;  VERBOSE=1 snake/fast"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/file/code/PROJECTS/snake/main.c">
+			<Option target="snake"/>
+		</Unit>
+		<Unit filename="D:/file/code/PROJECTS/snake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/file/code/PROJECTS/snake/../../../../vcpkg/scripts/buildsystems/vcpkg.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\vcpkg\scripts\buildsystems\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

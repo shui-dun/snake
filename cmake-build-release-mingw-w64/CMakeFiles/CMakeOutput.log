@@ -1,0 +1,202 @@
+The system is: Windows - 10.0.19042 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/msys64/mingw64/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is Clang, found in "D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/CMakeFiles/3.19.2/CompilerIdC/a.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/msys64/mingw64/bin/mingw32-make.exe cmTC_b378d/fast && D:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b378d.dir\build.make CMakeFiles/cmTC_b378d.dir/build
+mingw32-make[1]: Entering directory 'D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b378d.dir/CMakeCCompilerABI.c.obj
+D:\msys64\mingw64\bin\clang.exe   -v -o CMakeFiles\cmTC_b378d.dir\CMakeCCompilerABI.c.obj -c "D:\CLion 2021.1.1\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
+clang version 11.0.0
+Target: x86_64-w64-windows-gnu
+Thread model: posix
+InstalledDir: D:/msys64/mingw64/bin
+ (in-process)
+ "D:/msys64/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -fno-rounding-math -mconstructor-aliases -mms-bitfields -munwind-tables -target-cpu x86-64 -debugger-tuning=gdb -v -resource-dir D:/msys64/mingw64/lib/clang/11.0.0 -internal-isystem D:/msys64/mingw64/lib/clang/11.0.0/include -internal-isystem D:/msys64/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem D:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem D:/msys64/mingw64/include -fdebug-compilation-dir "D:\\file\\code\\PROJECTS\\snake\\cmake-build-release-mingw-w64\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fseh-exceptions -faddrsig -o "CMakeFiles\\cmTC_b378d.dir\\CMakeCCompilerABI.c.obj" -x c "D:\\CLion 2021.1.1\\bin\\cmake\\win\\share\\cmake-3.19\\Modules\\CMakeCCompilerABI.c"
+clang -cc1 version 11.0.0 based upon LLVM 11.0.0 default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "D:/msys64/mingw64/x86_64-w64-mingw32/sys-root/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ D:/msys64/mingw64/lib/clang/11.0.0/include
+ D:/msys64/mingw64/x86_64-w64-mingw32/include
+ D:/msys64/mingw64/include
+End of search list.
+Linking C executable cmTC_b378d.exe
+"D:\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b378d.dir\link.txt --verbose=1
+"D:\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_b378d.dir/objects.a
+D:\msys64\mingw64\bin\ar.exe cr CMakeFiles\cmTC_b378d.dir/objects.a @CMakeFiles\cmTC_b378d.dir\objects1.rsp
+D:\msys64\mingw64\bin\clang.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_b378d.dir/objects.a -Wl,--no-whole-archive -o cmTC_b378d.exe -Wl,--out-implib,libcmTC_b378d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+clang version 11.0.0
+Target: x86_64-w64-windows-gnu
+Thread model: posix
+InstalledDir: D:/msys64/mingw64/bin
+ "D:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_b378d.exe D:/msys64/mingw64/x86_64-w64-mingw32/lib/crt2.o D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LD:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0 -LD:/msys64/mingw64/x86_64-w64-mingw32/lib -LD:/msys64/mingw64/lib -LD:/msys64/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib --whole-archive "CMakeFiles\\cmTC_b378d.dir/objects.a" --no-whole-archive --out-implib libcmTC_b378d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file D:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/CMakeFiles/CMakeTmp/cmTC_b378d.exe -installedDir D:/vcpkg/installed/x64-mingw-dynamic/bin -OutVariable out
+mingw32-make[1]: Leaving directory 'D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [D:/msys64/mingw64/lib/clang/11.0.0/include]
+    add: [D:/msys64/mingw64/x86_64-w64-mingw32/include]
+    add: [D:/msys64/mingw64/include]
+  end of search list found
+  collapse include dir [D:/msys64/mingw64/lib/clang/11.0.0/include] ==> [D:/msys64/mingw64/lib/clang/11.0.0/include]
+  collapse include dir [D:/msys64/mingw64/x86_64-w64-mingw32/include] ==> [D:/msys64/mingw64/x86_64-w64-mingw32/include]
+  collapse include dir [D:/msys64/mingw64/include] ==> [D:/msys64/mingw64/include]
+  implicit include dirs: [D:/msys64/mingw64/lib/clang/11.0.0/include;D:/msys64/mingw64/x86_64-w64-mingw32/include;D:/msys64/mingw64/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/msys64/mingw64/bin/mingw32-make.exe cmTC_b378d/fast && D:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b378d.dir\build.make CMakeFiles/cmTC_b378d.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b378d.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\msys64\mingw64\bin\clang.exe   -v -o CMakeFiles\cmTC_b378d.dir\CMakeCCompilerABI.c.obj -c "D:\CLion 2021.1.1\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c"]
+  ignore line: [clang version 11.0.0]
+  ignore line: [Target: x86_64-w64-windows-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: D:/msys64/mingw64/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "D:/msys64/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -fno-rounding-math -mconstructor-aliases -mms-bitfields -munwind-tables -target-cpu x86-64 -debugger-tuning=gdb -v -resource-dir D:/msys64/mingw64/lib/clang/11.0.0 -internal-isystem D:/msys64/mingw64/lib/clang/11.0.0/include -internal-isystem D:/msys64/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem D:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem D:/msys64/mingw64/include -fdebug-compilation-dir "D:\\file\\code\\PROJECTS\\snake\\cmake-build-release-mingw-w64\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fseh-exceptions -faddrsig -o "CMakeFiles\\cmTC_b378d.dir\\CMakeCCompilerABI.c.obj" -x c "D:\\CLion 2021.1.1\\bin\\cmake\\win\\share\\cmake-3.19\\Modules\\CMakeCCompilerABI.c"]
+  ignore line: [clang -cc1 version 11.0.0 based upon LLVM 11.0.0 default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "D:/msys64/mingw64/x86_64-w64-mingw32/sys-root/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ D:/msys64/mingw64/lib/clang/11.0.0/include]
+  ignore line: [ D:/msys64/mingw64/x86_64-w64-mingw32/include]
+  ignore line: [ D:/msys64/mingw64/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_b378d.exe]
+  ignore line: ["D:\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b378d.dir\link.txt --verbose=1]
+  ignore line: ["D:\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_b378d.dir/objects.a]
+  ignore line: [D:\msys64\mingw64\bin\ar.exe cr CMakeFiles\cmTC_b378d.dir/objects.a @CMakeFiles\cmTC_b378d.dir\objects1.rsp]
+  ignore line: [D:\msys64\mingw64\bin\clang.exe  -v -Wl --whole-archive CMakeFiles\cmTC_b378d.dir/objects.a -Wl --no-whole-archive -o cmTC_b378d.exe -Wl --out-implib libcmTC_b378d.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [clang version 11.0.0]
+  ignore line: [Target: x86_64-w64-windows-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: D:/msys64/mingw64/bin]
+  link line: [ "D:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_b378d.exe D:/msys64/mingw64/x86_64-w64-mingw32/lib/crt2.o D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LD:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0 -LD:/msys64/mingw64/x86_64-w64-mingw32/lib -LD:/msys64/mingw64/lib -LD:/msys64/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib --whole-archive "CMakeFiles\\cmTC_b378d.dir/objects.a" --no-whole-archive --out-implib libcmTC_b378d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+    arg [D:/msys64/mingw64/bin/ld] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b378d.exe] ==> ignore
+    arg [D:/msys64/mingw64/x86_64-w64-mingw32/lib/crt2.o] ==> ignore
+    arg [D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o] ==> ignore
+    arg [-LD:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0] ==> dir [D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0]
+    arg [-LD:/msys64/mingw64/x86_64-w64-mingw32/lib] ==> dir [D:/msys64/mingw64/x86_64-w64-mingw32/lib]
+    arg [-LD:/msys64/mingw64/lib] ==> dir [D:/msys64/mingw64/lib]
+    arg [-LD:/msys64/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib] ==> dir [D:/msys64/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\\cmTC_b378d.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_b378d.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o] ==> ignore
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse library dir [D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0] ==> [D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0]
+  collapse library dir [D:/msys64/mingw64/x86_64-w64-mingw32/lib] ==> [D:/msys64/mingw64/x86_64-w64-mingw32/lib]
+  collapse library dir [D:/msys64/mingw64/lib] ==> [D:/msys64/mingw64/lib]
+  collapse library dir [D:/msys64/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib] ==> [D:/msys64/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+  implicit dirs: [D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0;D:/msys64/mingw64/x86_64-w64-mingw32/lib;D:/msys64/mingw64/lib;D:/msys64/mingw64/x86_64-w64-mingw32/sys-root/mingw/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/msys64/mingw64/bin/mingw32-make.exe cmTC_44665/fast && D:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_44665.dir\build.make CMakeFiles/cmTC_44665.dir/build
+mingw32-make[1]: Entering directory 'D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44665.dir/CheckIncludeFile.c.obj
+D:\msys64\mingw64\bin\clang.exe   -std=gnu99 -o CMakeFiles\cmTC_44665.dir\CheckIncludeFile.c.obj -c D:\file\code\PROJECTS\snake\cmake-build-release-mingw-w64\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_44665.exe
+"D:\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_44665.dir\link.txt --verbose=1
+"D:\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_44665.dir/objects.a
+D:\msys64\mingw64\bin\ar.exe cr CMakeFiles\cmTC_44665.dir/objects.a @CMakeFiles\cmTC_44665.dir\objects1.rsp
+D:\msys64\mingw64\bin\clang.exe -Wl,--whole-archive CMakeFiles\cmTC_44665.dir/objects.a -Wl,--no-whole-archive -o cmTC_44665.exe -Wl,--out-implib,libcmTC_44665.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_44665.dir\linklibs.rsp
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file D:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/CMakeFiles/CMakeTmp/cmTC_44665.exe -installedDir D:/vcpkg/installed/x64-mingw-dynamic/bin -OutVariable out
+mingw32-make[1]: Leaving directory 'D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/msys64/mingw64/bin/mingw32-make.exe cmTC_f88e5/fast && D:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f88e5.dir\build.make CMakeFiles/cmTC_f88e5.dir/build
+mingw32-make[1]: Entering directory 'D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f88e5.dir/src.c.obj
+D:\msys64\mingw64\bin\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu99 -o CMakeFiles\cmTC_f88e5.dir\src.c.obj -c D:\file\code\PROJECTS\snake\cmake-build-release-mingw-w64\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_f88e5.exe
+"D:\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f88e5.dir\link.txt --verbose=1
+"D:\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_f88e5.dir/objects.a
+D:\msys64\mingw64\bin\ar.exe cr CMakeFiles\cmTC_f88e5.dir/objects.a @CMakeFiles\cmTC_f88e5.dir\objects1.rsp
+D:\msys64\mingw64\bin\clang.exe -Wl,--whole-archive CMakeFiles\cmTC_f88e5.dir/objects.a -Wl,--no-whole-archive -o cmTC_f88e5.exe -Wl,--out-implib,libcmTC_f88e5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f88e5.dir\linklibs.rsp
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file D:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/CMakeFiles/CMakeTmp/cmTC_f88e5.exe -installedDir D:/vcpkg/installed/x64-mingw-dynamic/bin -OutVariable out
+mingw32-make[1]: Leaving directory 'D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

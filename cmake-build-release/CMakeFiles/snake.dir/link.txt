@@ -1,0 +1,1 @@
+/usr/bin/clang -O3 -DNDEBUG   CMakeFiles/snake.dir/main.c.o  -o snake  -lpthread -lncurses 

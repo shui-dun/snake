@@ -1,0 +1,3 @@
+/mnt/d/file/code/PROJECTS/snake/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/mnt/d/file/code/PROJECTS/snake/cmake-build-release/CMakeFiles/edit_cache.dir
+/mnt/d/file/code/PROJECTS/snake/cmake-build-release/CMakeFiles/snake.dir

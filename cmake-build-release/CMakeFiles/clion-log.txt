@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DCMAKE_TOOLCHAIN_FILE=/usr/local/vcpkg/scripts/buildsystems/vcpkg.cmake -G "CodeBlocks - Unix Makefiles" /mnt/d/file/code/PROJECTS/snake
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/d/file/code/PROJECTS/snake/cmake-build-release
