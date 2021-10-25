@@ -1,3 +1,0 @@
-D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/CMakeFiles/snake.dir
-D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/CMakeFiles/edit_cache.dir
-D:/file/code/PROJECTS/snake/cmake-build-release-mingw-w64/CMakeFiles/rebuild_cache.dir
