@@ -2,10 +2,14 @@
 
 贪吃蛇误入一片全新的领域，你的挑战开始了！这里危机四伏：无处不在的陷阱、突如其来的炸弹……你要如何克服重重阻碍，吃到美味的食物呢？
 
-## 依赖
+## 安装方法
 
-* pthread
-* ncurses
+```shell
+apt install libncurses5-dev
+mkdir build && cd build
+cmake ..
+cmake --build .
+```
 
 ## 介绍
 
