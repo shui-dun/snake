@@ -5,9 +5,9 @@
 ## 安装方法
 
 ```shell
-apt install libncurses5-dev
+apt install libncursesw5-dev # 如果是msys2，使用pacman -S mingw-w64-x86_64-ncurses
 mkdir build && cd build
-cmake ..
+cmake -DCMAKE_BUILD_TYPE=Release ..
 cmake --build .
 ```
 
